@@ -2,20 +2,100 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>All About Y.B.E</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="author" content="Yunus Bora Erciyas">
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 { 
+                background-color: #1abc9c; /* Green */
+                color: #ffffff;
+            }
+            .bg-2 { 
+                background-color: #474e5d; /* Dark Blue */
+                color: #ffffff;
+            }
+            .bg-3 { 
+                background-color: #ffffff; /* White */
+                color: #555555;
+            }
+            .bg-4 { 
+                background-color: #2f2f2f; /* Black Gray */
+                color: #fff;
+            }
+            .bg-5   {
+                background-color: bisque;
+                color: brown
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .shadow {
+                -moz-box-shadow: 2px 2px 15px #ccc; 
+                -webkit-box-shadow: 2px 2px 15px #ccc; 
+                box-shadow: 2px 2px 15px #ccc;
+            }
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+            .navbar-nav  li a:hover {
+                color: #1abc9c !important;
+            }
+        </style>
     </head>
 
     <body>
-        <nav>
+        <!--<nav>
             <a href="index.html">&#91;Home&#93; </a>
             <a href="PictureGallery.html">&#91;Picture Gallery&#93; </a>
             <a href="ContactMe.html">&#91;Contact Me&#93; </a>
             <a href="MyHobbies.html">&#91;My Hobbies&#93; </a>
             <a href="Registration.html">&#91;Register&#93; </a>
             <a href="Family.html">&#91;About My Family&#91;</a>
+        </nav>-->
+        
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="MyHobbies.html">HOBBIES</a></li>
+                        <li><a href="Family.html">FAMILY</a></li>
+                        <li><a href="ContactMe.html">CONTACT ME</a></li>
+                        <li><a href="PictureGallery.html">PICTURE GALLERY</a></li>
+                        <li><a href="Registration.html">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h1>That Page is All About Myself!</h1>
+        
+        <!--<h1>That Page is All About Myself!</h1>
         
         <p>I am introducing myself as <b>&#39;&#39;Capable of Everything&#39;&#39;</b> which means exactly Open Minded.<br>
         I have never restricted myself with some borders and always tried to accomplish my goals even with the hardest obstacles.<br>
@@ -38,6 +118,42 @@
         
         <hr>
         
+        -->
+        <div class="row">
+            <div class="container-fluid bg-1 text-center shadow margin">
+                <h3 class="margin">Who Am I?</h3>
+                <div>
+                    <p>I am introducing myself as       <b>&#39;&#39;Capable of Everything&#39;&#39;</b> which means  exactly Open Minded.<br>
+                        I have never restricted myself with some borders and always tried to accomplish my goals even with the hardest obstacles.<br>
+                        Most of the time my Fearlessness in any difficulty strengthened me. Therefore, finding some reasons to escape from those challenges never works on me. If I focus on some missions those really worth of that labour, I will never give up.</p><br>
+        <br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 shadow text-center">
+                <div class="bg-2 shadow margin">
+                    <h3>My Hobbies&#33;</h3>
+                    <a href="MyHobbies.html">    
+                    <img src="img/hobbies-670x335.jpg" class="img-responsive img-rounded" alt="My Hobbies"></a>
+                </div>
+                <div class="bg-5 shadow margin">
+                    <a href="ContactMe.html"><img src="img/Contact-Me.png" alt="Contact Me" width="400px"></a>
+                </div>
+                <div class="bg-5 shadow margin">
+                    <a style="align: center;" href="Registration.html"><img class="img-responsive img-rounded" src="img/Register.png" alt="Register" ></a>
+                </div>
         
+            </div>
+            <div class="col-md-6 bg-3 shadow text-center">
+                <div class="bg-3 shadow margin">
+                    <a href="PictureGallery.html"><img src="img/PhotoGallery.jpg" class="img-responsive img-rounded" alt="Photo Gallery"></a>
+                </div>
+                <div class="bg-2 shadow margin">
+                    <h3>My Family</h3>
+                    <a href="Family.html" style="font-size:25px;"><img src="img/family-800x455.jpg" class="img-responsive img-rounded" alt="Family"></a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

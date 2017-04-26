@@ -1,0 +1,133 @@
+.w3-agileits-statistics-heading h3{
+    color: #2f2f2f;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.experience-heading h3{
+    color: #2f2f2f;
+}
+@media(max-width:414px){
+	.wthree-about-left h3, .wthree-about-right h3, .w3-agileits-statistics-heading h3 {
+		font-size: 1.5em;
+	}
+	.agile-statistics-grids {
+		margin: 2em 0 0 0;
+	}
+	.statistics-grid2:before {
+		left: 183px;
+	}
+	.statistics-grid2:after {
+		right: 183px;
+	}
+	.w3-agile-experience-grids {
+		margin: 0em 0 0 0;
+	}
+	.experience-grid {
+		padding: 1em 0;
+	}
+	.nav-tabs {
+		width: 95%;
+	}
+	.nav-tabs {
+		margin: 1em auto 0;
+	}
+	.map-grid iframe {
+		height: 200px;
+	}
+	.styled-input {
+		width: 100%;
+	}
+	.styled-input {
+		margin: 1em 0em;
+	}
+	.styled-input.agile-styled-input-top {
+		margin-top: 1em;
+	}
+	.m_nav_ham {
+		width: 25px !important;
+		height: 2px !important;
+	}
+	.m_nav_ham_2_open {
+		margin-top: -7px !important;
+	}
+	.m_nav_ham_1_open {
+		margin-top: 11px !important;
+	}
+}
+@media(max-width:384px){
+	.statistics-grid2:before {
+		left: 170px;
+	}
+	.statistics-grid2:after {
+		right: 170px;
+	}
+	.nav-tabs > li > a {
+		font-size: .87em;
+	}
+	.contact-form {
+		margin: 2em 0 0 0;
+	}
+}
+@media(max-width:375px){
+	.statistics-grid2:before {
+		left: 162px;
+	}
+	.nav-tabs > li {
+		margin: 3px 4px;
+	}
+	.w3_tab_img_left {
+		width: 100%;
+		margin: 1em 0 0 0;
+	}
+}
+@media(max-width:320px){
+	.agile-logo {
+		width: 50%;
+	}
+	.agile-logo h1 a {
+		font-size: .3em;
+	}
+	.agile-logo h1 a span {
+		font-size: 2.3em !important;
+	}
+	.banner-right-img {
+		width: 60%;
+	}
+	.w3ls-banner-right {
+		padding: 0;
+	}
+	.social-info {
+		width: 100%;
+		float: none;
+		margin-bottom: 1em;
+	}
+	.agileinfo-social-grids {
+		float: none;
+		margin: 0;
+		width: 100%;
+	}
+	.w3ls-banner-left {
+		padding: 0;
+	}
+	.agile-statistics-grid i.fa.fa-desktop, .agile-statistics-grid i.fa.fa-user, .agile-statistics-grid i.fa.fa-trophy {
+		width: 80px;
+		height: 80px;
+		padding: 1.2em 0 0 0;
+	}
+	.statistics-grid2:before {
+		left: 135px;
+	}
+	.statistics-grid2:after {
+		right: 135px;
+		top: 181px;
+	}
+	.experience-grid-icon i.fa.fa-folder-open, .experience-grid-icon i.fa.fa-bell, .experience-grid-icon i.fa.fa-comments, .experience-grid-icon i.fa.fa-asterisk {
+		width: 80px;
+		height: 80px;
+		padding: .7em 0 0 0;
+	}
+}

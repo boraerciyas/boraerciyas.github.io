@@ -2,19 +2,134 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="author" content="Yunus Bora Erciyas">
+        <style>
+            body {
+                font: 20px Montserrat, sans-serif;
+                line-height: 1.8;
+                color: #f5f6f7;
+            }
+            p {font-size: 16px;}
+            .margin {margin-bottom: 45px;}
+            .bg-1 { 
+                background-color: #1abc9c; /* Green */
+                color: #ffffff;
+            }
+            .bg-2 { 
+                background-color: #474e5d; /* Dark Blue */
+                color: #ffffff;
+            }
+            .bg-3 { 
+                background-color: #ffffff; /* White */
+                color: #555555;
+            }
+            .bg-4 { 
+                background-color: #2f2f2f; /* Black Gray */
+                color: #fff;
+            }
+            .bg-5   {
+                background-color: bisque;
+                color: brown
+            }
+            .container-fluid {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .shadow {
+                -moz-box-shadow: 2px 2px 15px #ccc; 
+                -webkit-box-shadow: 2px 2px 15px #ccc; 
+                box-shadow: 2px 2px 15px #ccc;
+            }
+            .navbar {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: 0;
+                border-radius: 0;
+                margin-bottom: 0;
+                font-size: 12px;
+                letter-spacing: 5px;
+            }
+            .navbar-nav  li a:hover {
+                color: #1abc9c !important;
+            }
+        </style>
         <title>My Hobbies</title>
     </head>
     <body>
-        <nav>
-            <a href="index.html">&#91;Home&#93; </a>
-            <a href="PictureGallery.html">&#91;Picture Gallery&#93; </a>
-            <a href="ContactMe.html">&#91;Contact Me&#93; </a>
-            <a href="MyHobbies.html">&#91;My Hobbies&#93; </a>
-            <a href="Registration.html">&#91;Register&#93; </a>
-            <a href="Family.html">&#91;About My Family&#91;</a>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="MyHobbies.html">HOBBIES</a></li>
+                        <li><a href="Family.html">FAMILY</a></li>
+                        <li><a href="ContactMe.html">CONTACT ME</a></li>
+                        <li><a href="PictureGallery.html">PICTURE GALLERY</a></li>
+                        <li><a href="Registration.html">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h1>My Hobbies</h1>
+        
+        <div class="container-fluid bg-1 text-center shadow margin">
+            <h3 class="margin">My Hobbies?</h3>
+                <div>
+                    <p>I would appraciate to share my hobbies with you guys! And to make it pretty enjoyable, I will be using Gifs to make it visual fest!<br>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Some Philosophy</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/sSMfxgDhcjKTK" width="480" height="319.68" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                            
+                        </div>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">Camping &#9978;</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/Wd4CMxUeO6CA0" width="480" height="270.72" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading">NBA</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/l3vRhFcpkE6CgYKuA" width="480" height="266" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel-group">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading">Cooking Food &#9832;</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/xKggUfdA60O6A" width="480" height="199.2" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        </div>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">printf&#40;&#39;&#39;Coding&#39;&#39;&#41;</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/QHE5gWI0QjqF2" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Smoking Pipe</div>
+                            <div class="panel-body"><iframe src="https://giphy.com/embed/26hit9rAsfYVhnn3O" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        
+        </div>
+    <!--    <h1>My Hobbies</h1>
         <p>I would appraciate to share my hobbies with you guys! And to make it pretty enjoyable, I will be using Gifs to make it visual fest!
         </p>
         
@@ -27,6 +142,6 @@
             <iframe src="https://giphy.com/embed/sSMfxgDhcjKTK" width="480" height="319.68" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/art-guns-n-roses-sSMfxgDhcjKTK">Some Philosophy</a></p>
             <iframe src="https://giphy.com/embed/Wd4CMxUeO6CA0" width="480" height="270.72" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/disneypixar-disney-pixar-Wd4CMxUeO6CA0">Camping 	&#9978;</a></p>
             
-        </div>
+        </div>-->
     </body>
 </html>
