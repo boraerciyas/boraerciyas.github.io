@@ -1,27 +1,70 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>My Family</title>
+        <title>Family</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="author" content="Yunus Bora Erciyas">
     </head>
     
     <body>
-        <nav>
-            <a href="index.html">&#91;Home&#93; </a>
-            <a href="PictureGallery.html">&#91;Picture Gallery&#93; </a>
-            <a href="ContactMe.html">&#91;Contact Me&#93; </a>
-            <a href="MyHobbies.html">&#91;My Hobbies&#93; </a>
-            <a href="Registration.html">&#91;Register&#93; </a>
-            <a href="Family.html">&#91;About My Family&#91;</a>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="MyHobbies.html">HOBBIES</a></li>
+                        <li><a href="Family.html">FAMILY</a></li>
+                        <li><a href="ContactMe.html">CONTACT ME</a></li>
+                        <li><a href="PictureGallery.html">PICTURE GALLERY</a></li>
+                        <li><a href="Registration.html">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        <div class="container-fluid bg-1 text-center shadow margin">
+            <h3 class="margin">My Family</h3>
+                <div>
+                    <p>     <b>My family has 4 persons init. So I would like to introduce them to you.</b></p>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row container-fluid bg-2 text-center shadow margin">
+                <div class="col-md-6 bg-5">
+                    <h3>Father</h3>
+                    <img src="img/Family/father.jpg" alt="Father" width="400px" class="img-responsive img-rounded margin">
+                    <h3>Sister</h3>
+                    <div>
+                    <img src="img/Family/sis.jpg" alt="Sister" class="img-rounded img-responsive margin" width="400px"></div>
+                </div>
+                <div class="col-md-6 bg-5">
+                    <h3>Mother</h3>
+                    <img src="img/Family/mommy.jpg" alt="Mommy" width="400px" class="img-responsive img-rounded margin">
+                    <p>And there are somebody who always inside of my heart way deeper than blood relate!</p><br>
+                    <img src="img/Family/gf.jpg" alt="GirlFriend" width="400px" class="img-responsive img-rounded margin">
+                </div>
+            </div>
+            <div class="container-fluid bg-3 text-center shadow margin">
+                <img src="img/Family/whole.jpg" alt="All Family" width="400px" class="img-responsive img-rounded margin">
+            </div>
+        </div>
         
-        <h1>My Family</h1>
         
-        <p>     <b>My family has 4 persons init. So I would like to introduce them to you.</b></p>
-        
-        <hr>
-        
+        <!--
         <h3>Father</h3>
         <img src="img/Family/father.jpg" alt="Father" width="400px"><br><hr>
         
@@ -36,6 +79,6 @@
         
         <img src="img/Family/gf.jpg" alt="GirlFriend" width="400px"><br><hr>
         
-        <img src="img/Family/whole.jpg" alt="All Family" width="400px">
+        <img src="img/Family/whole.jpg" alt="All Family" width="400px">-->
     </body>
 </html>

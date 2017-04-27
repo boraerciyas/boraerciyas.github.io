@@ -3,34 +3,70 @@
     <head>
         <title>Contact Me</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <meta name="author" content="Yunus Bora Erciyas">
     </head>
     
     <body>
-        
-        <nav>
-            <a href="index.html">&#91;Home&#93; </a>
-            <a href="PictureGallery.html">&#91;Picture Gallery&#93; </a>
-            <a href="ContactMe.html">&#91;Contact Me&#93; </a>
-            <a href="MyHobbies.html">&#91;My Hobbies&#93; </a>
-            <a href="Registration.html">&#91;Register&#93; </a>
-            <a href="Family.html">&#91;About My Family&#91;</a>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Me</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="MyHobbies.html">HOBBIES</a></li>
+                        <li><a href="Family.html">FAMILY</a></li>
+                        <li><a href="ContactMe.html">CONTACT ME</a></li>
+                        <li><a href="PictureGallery.html">PICTURE GALLERY</a></li>
+                        <li><a href="Registration.html">REGISTER</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <h1>Contact Me</h1>
-        <br>
-        <form action="action.php" method="POST"><b>You Can Contact Me From Here</b><br><br>
-            <label for="name">Enter Your Name &#38 Surname: </label>
-            <input type="text" alt="Name&Surname" accept="text/plain" name="name" id="name"><br>
-            <label for="email">Enter Your E-mail Adress: </label><input type="email" alt="E-mail Adress" id="email"><br>
-            <textarea rows="5" cols="70" placeholder="Here you can text me whatever you want!"></textarea><br>
-            <input type="submit" alt="Enter" name="Enter" value="Enter">
-        </form>
-        <br>
-        <fieldset>
-            <legend>Contact Links</legend>
-            <a href="https://www.facebook.com/boraerci" target="_blank" title="Facebook"><img        src="img/facebook-300x300.png" alt="Facebook" height="100"></a>
-            <a href="https://www.twitter.com/boraerciyas" target="_blank" title="Twitter"><img      src="img/twitter-300x300.png" alt="Twitter" height="100"></a>
-            <a href="https://plus.google.com/+YunusBoraErciyas" target="_blank" title="Google+">    <img src="img/googleplus-900x900.png" alt="Google+" height="100"></a>
-        </fieldset><br>
+        <div class="container-fluid bg-1 text-center shadow margin">
+                <h3 class="margin">Contact Me<br><br><small style="color:yellow"> In case you want it!</small></h3>
+            </div>
+        <div class="container-fluid">
+            <div>
+                <form class="form-group">
+                    <p class="margin"><b>You Can Contact Me From Here</b></p>
+                    <label for="name">Enter Your Name &#38; Surname: </label>
+                    <input type="text" alt="Name&Surname" accept="text/plain" class="form-control" name="name" id="name"><br>
+                    <label for="email">Enter Your E-mail Adress: </label><input type="email" class="form-control" alt="E-mail Adress" id="email"><br>
+                    <textarea rows="5" class="form-control" cols="70" placeholder="Here you can text me whatever you want!"></textarea><br>
+                    <input type="submit" class="form-control" alt="Enter" name="Enter" value="Enter">
+                    
+                </form>
+            </div>
+            <div class="container">
+                <h3 class="text-center">
+                    Contact Links
+                </h3>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a href="https://www.facebook.com/boraerci" target="_blank" title="Facebook"><img        src="img/facebook-300x300.png" alt="Facebook" class="img-circle" height="100"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://www.twitter.com/boraerciyas" target="_blank" title="Twitter"><img      src="img/twitter-300x300.png" class="img-circle" alt="Twitter" height="100"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://plus.google.com/+YunusBoraErciyas"  target="_blank" title="Google+">    <img src="img/googleplus-900x900.png" class="img-circle" alt="Google+" height="100"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
